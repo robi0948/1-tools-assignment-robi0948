@@ -1,0 +1,37 @@
+{
+  "name": "1-tools-assignment",
+  "version": "1.0.0",
+  "description": "## Part 1: Initialize a Project",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "build": "webpack",
+    "start": "webpack-dev-server"
+    
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Milligan-IS318-Classroom/1-tools-assignment-robi0948.git"
+  },
+  "keywords": [
+    "assignment"
+  ],
+  "author": "Benjamin Robinson",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Milligan-IS318-Classroom/1-tools-assignment-robi0948/issues"
+  },
+  "homepage": "https://github.com/Milligan-IS318-Classroom/1-tools-assignment-robi0948#readme",
+  "devDependencies": {
+    "@babel/core": "^7.11.6",
+    "@babel/preset-env": "^7.11.5",
+    "autoprefixer": "^9.8.6",
+    "babel-loader": "^8.1.0",
+    "jest": "^26.4.2",
+    "postcss-loader": "^3.0.0"
+  },
+  "dependencies": {
+    "@material/button": "^7.0.0",
+    "@material/ripple": "^7.0.0"
+  }
+}
